@@ -80,8 +80,11 @@ Contains various medical-related datasets for fine-tuning and evaluation:
 - **English Medical Datasets**:
     - `healthcaremagic/`: English open-domain Medical QA dataset
     - `medqa/`: Medical multiple-choice QA dataset
-    - `goldentouchstone/`: Medical evaluation benchmark dataset
     - `medical/`: General English medical tasks dataset
+
+We also find a financial dataset that is suitable for our experimental setup. Although it was not involved in the current experiments, it could be quite appropriate for future domain-specific fine-tuning tasks:
+- **Financial Dataset**:
+    - `goldentouchstone/`: A financial bilingual evaluation benchmark dataset that follows a similar QA format to our medical datasets, making it compatible with our training pipeline for potential merging.
 
 ### 2. models
 
